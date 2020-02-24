@@ -1,0 +1,19 @@
+
+
+[class^="bar--"] {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	min-height: 3em;
+	padding: 0.4em;
+}
+
+.bar--top {
+	top: 0;
+	margin-bottom: 3em;
+	background-color: #FFF;
+}
+
+.bar--bottom {
+
+}
