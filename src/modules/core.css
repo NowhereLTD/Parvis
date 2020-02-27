@@ -1,7 +1,8 @@
 
 body {
 	margin: 0;
-	
+  overflow-x: hidden;
+
 	-moz-user-select: none;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
@@ -21,4 +22,12 @@ body {
 	-webkit-user-select: text;
 	-ms-user-select: text;
 	user-select: text;
+}
+
+.unset {
+  all: unset;
+}
+
+.initial {
+  all: initial;
 }
