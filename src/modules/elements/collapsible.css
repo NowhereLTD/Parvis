@@ -34,7 +34,7 @@
   position: absolute;
   right: 0;
   margin-right: 1em;
-  transition: 0.3s all ease;
+  transition: 0.4s all ease;
 }
 
 [class^="collapsible"]>input[type*="checkbox"]:checked + label::after {
