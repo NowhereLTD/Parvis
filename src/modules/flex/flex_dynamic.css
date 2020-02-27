@@ -1,0 +1,26 @@
+/*
+  Not supported add the moment
+*/
+
+
+/*
+	Base for all Flex Elements
+*/
+[class^="f--"] {
+  --flex-size: 100%;
+  --flex-break: 12;
+}
+
+/*
+	Flex start
+*/
+[class^="f--s"] {
+  margin-left: calc(var(--flex-size) / var(--flex-break) * attr(fs integer));
+}
+
+/*
+	Flex end
+*/
+[class^="f--e"] {
+  width: calc(var(--flex-size) / var(--flex-break) * attr(fe integer));
+}
