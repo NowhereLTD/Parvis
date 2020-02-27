@@ -1,0 +1,33 @@
+/*
+  Headlines Base Layout
+*/
+
+h1 {
+  margin: 0;
+  padding: 1em;
+}
+
+h2 {
+  margin: 0;
+  padding: 0.8em;
+}
+
+h3 {
+  margin: 0;
+  padding: 0.6em;
+}
+
+h4 {
+  margin: 0;
+  padding: 0.4em;
+}
+
+h5 {
+  margin: 0;
+  padding: 0.2em;
+}
+
+h6 {
+  margin: 0;
+  padding: 0.1em;
+}

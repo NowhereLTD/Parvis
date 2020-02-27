@@ -1,0 +1,6 @@
+video, img {
+	width: 100%;
+	box-shadow: 0 3px 6px rgba(var(--color-base-type-rgb), 0.16), 0 3px 6px rgba(var(--color-base-type-rgb), 0.23);
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}

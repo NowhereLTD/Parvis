@@ -1,0 +1,105 @@
+
+
+/*
+	INPUT
+	Variables
+*/
+:root {
+	--form-input-fontsize: 1.3em;
+}
+
+/*
+	Checkbox and Radio
+*/
+input[type*="checkbox"], input[type*="radio"] {
+	display: none;
+}
+
+input[type*="checkbox"] + label, input[type*="radio"] + label {
+	color: var(--color-base-foreground);
+	font-size: var(--form-input-fontsize);
+	transition: content 0.5s;
+	cursor: pointer;
+	color: var(--color-base-elements-foreground);
+}
+
+input[type="checkbox"] + label::before, input[type="radio"] + label::before {
+	height: 10px;
+	width: 10px;
+	margin-right: 0.3em;
+	text-align: center;
+	color: var(--color-base-elements-foreground);
+}
+
+input[type="checkbox"] + label::before {
+	content: "\2610";
+}
+
+input[type="checkbox"]:checked + label::before {
+	content: "\2611";
+}
+
+input[type="checkbox"][class="f--cross"]:checked + label::before {
+	content: "\2612";
+}
+
+input[type="radio"] + label::before {
+	content: "\26AA";
+}
+
+input[type="radio"]:checked + label::before {
+	content: "\26AB";
+}
+
+
+/*
+	Normal Input
+*/
+
+input {
+	all: unset;
+	font-size: var(--form-input-fontsize);
+	padding: 0.3em;
+	padding-top: calc(var(--form-input-fontsize) / 1.5);
+	background-color: var(--color-base-elements-background);
+	color: var(--color-base-elements-foreground);
+	border-bottom: 1px solid var(--color-base-elements-foreground);
+	width: 100%;
+}
+
+input:focus {
+	border-bottom-style: dotted;
+}
+
+input::placeholder {
+	color: var(--color-base-elements-foreground);
+	opacity: 0.5;
+	transition: transform 0.5s;
+	font-size: calc(var(--form-input-fontsize) / 2);
+}
+
+input:focus::placeholder {
+	transform: translate3d(0, calc(var(--form-input-fontsize) * -1), 0);
+}
+
+
+/*
+	Textarea
+*/
+
+textarea {
+	all: unset;
+	font-size: calc(var(--form-input-fontsize) / 1.5);
+	padding: 0.3em;
+	background-color: var(--color-base-elements-background);
+	color: var(--color-base-elements-foreground);
+	border: 1px solid var(--color-base-elements-foreground);
+	margin-top: 0.3em;
+	resize: both;
+	width: 100%;
+}
+
+textarea:focus {
+	border-style: dotted;
+	resize: none;
+}
