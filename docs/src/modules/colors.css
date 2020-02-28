@@ -1,0 +1,179 @@
+
+.color-primary {
+	color: var(--color-base-primary);
+}
+
+.color-secondary {
+	color: var(--color-base-secondary);
+}
+
+.color-accent {
+	color: var(--color-base-accent);
+}
+
+.color-dark {
+	color: var(--color-dark-1-base);
+}
+
+.color-bright {
+	color: var(--color-bright-5-base);
+}
+
+.backgroundcolor-primary {
+	background-color: var(--color-base-primary);
+}
+
+.backgroundcolor-secondary {
+	background-color: var(--color-base-secondary);
+}
+
+.backgroundcolor-accent {
+	background-color: var(--color-base-accent);
+}
+
+
+:root {
+
+
+	/*
+		Custom Colors
+	*/
+	--color-base-background: var(--color-dark-1-base);
+	--color-base-foreground: var(--color-bright-1-base);
+	--color-base-elements-background: var(--color-dark-base);
+	--color-base-elements-foreground: var(--color-bright-base);
+	--color-base-border: var(--color-dark-1-base);
+
+	--color-base-primary: var(--color-dark-1-greyblue);
+	--color-base-secondary: var(--color-bright-2-greyblue);
+	--color-base-accent: var(--color-bright-1-darkred);
+
+	/*
+		Use bright for dark designs and dark for bright designs.
+		Set the color base type variable to define shadows.
+	*/
+	--color-base-dark-rgb: var(--color-dark-2-base-rgb);
+	--color-base-bright-rgb: var(--color-bright-2-base-rgb);
+	--color-base-type-rgb: var(--color-base-dark-rgb);
+
+
+	/*
+		Base (From Black to White)
+	*/
+	--color-dark-base: #191919;
+	--color-dark-1-base: #212121;
+	--color-dark-2-base: #424242;
+	--color-dark-3-base: #616161;
+	--color-dark-4-base: #757575;
+	--color-dark-5-base: #9E9E9E;
+
+	--color-bright-base: #F9F9F9;
+	--color-bright-1-base: #FAFAFA;
+	--color-bright-2-base: #F5F5F5;
+	--color-bright-3-base: #EEEEEE;
+	--color-bright-4-base: #E0E0E0;
+	--color-bright-5-base: #BDBDBD;
+
+	--color-dark-1-base-rgb: 33, 33, 33;
+	--color-bright-1-base-rgb: 250, 250, 250;
+
+	--color-dark-2-base-rgb: 66, 66, 66;
+	--color-bright-2-base-rgb: 245, 245, 245;
+
+	/*
+		GreyBlue
+	*/
+	--color-dark-1-greyblue: #263238;
+	--color-dark-2-greyblue: #37474F;
+	--color-dark-3-greyblue: #455A64;
+	--color-dark-4-greyblue: #546E7A;
+	--color-dark-5-greyblue: #607D8B;
+
+	--color-bright-1-greyblue: #ECEFF1;
+	--color-bright-2-greyblue: #CFD8DC;
+	--color-bright-3-greyblue: #B0BEC5;
+	--color-bright-4-greyblue: #90A4AE;
+	--color-bright-5-greyblue: #78909C;
+
+
+	/*
+		Brown
+	*/
+	--color-dark-1-brown: #3E2723;
+	--color-dark-2-brown: #4E342E;
+	--color-dark-3-brown: #5D4037;
+	--color-dark-4-brown: #6D4C41;
+	--color-dark-5-brown: #795548;
+
+	--color-bright-1-brown: #EFEBE9;
+	--color-bright-2-brown: #D7CCC8;
+	--color-bright-3-brown: #BCAAA4;
+	--color-bright-4-brown: #A1887F;
+	--color-bright-5-brown: #8D6E63;
+
+
+
+	/*
+		DarkRed
+	*/
+	--color-dark-1-darkred: #BF360C;
+	--color-dark-2-darkred: #D84315;
+	--color-dark-3-darkred: #E64A19;
+	--color-dark-4-darkred: #F4511E;
+	--color-dark-5-darkred: #FF5722;
+
+	--color-bright-1-darkred: #FBE9E7;
+	--color-bright-2-darkred: #FFCCBC;
+	--color-bright-3-darkred: #FFAB91;
+	--color-bright-4-darkred: #FF8A65;
+	--color-bright-5-darkred: #FF7043;
+
+	/*
+		BrightRed
+	*/
+	--color-dark-1-brightred: #E65100;
+	--color-dark-2-brightred: #EF6C00;
+	--color-dark-3-brightred: #F57C00;
+	--color-dark-4-brightred: #FB8C00;
+	--color-dark-5-brightred: #FF9800;
+
+	--color-bright-1-brightred: #FFF3E0;
+	--color-bright-2-brightred: #FFE0B2;
+	--color-bright-3-brightred: #FFCC80;
+	--color-bright-4-brightred: #FFB74D;
+	--color-bright-5-brightred: #FFA726;
+
+
+	/*
+		DarkOrange
+	*/
+	--color-dark-1-darkorange: #FF6F00;
+	--color-dark-2-darkorange: #FF8F00;
+	--color-dark-3-darkorange: #FFA000;
+	--color-dark-4-darkorange: #FFB300;
+	--color-dark-5-darkorange: #FFC107;
+
+	--color-bright-1-darkorange: #FFF8E1;
+	--color-bright-2-darkorange: #FFECB3;
+	--color-bright-3-darkorange: #FFE082;
+	--color-bright-4-darkorange: #FFD54F;
+	--color-bright-5-darkorange: #FFCA28;
+
+	/*
+		BrightOrange
+	*/
+	--color-dark-1-brightorange: #F57F17;
+	--color-dark-2-brightorange: #F9A825;
+	--color-dark-3-brightorange: #FBC02D;
+	--color-dark-4-brightorange: #FDD835;
+	--color-dark-5-brightorange: #FFEB3B;
+
+	--color-bright-1-brightorange: #FFFDE7;
+	--color-bright-2-brightorange: #FFF9C4;
+	--color-bright-3-brightorange: #FFF59D;
+	--color-bright-4-brightorange: #FFF176;
+	--color-bright-5-brightorange: #FFEE58;
+
+	
+
+}

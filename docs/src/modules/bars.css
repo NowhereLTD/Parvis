@@ -1,0 +1,19 @@
+
+
+[class^="bar--"] {
+	left: 0;
+	width: 100%;
+	min-height: 3em;
+  color: var(--color-base-elements-foreground);
+	background-color: var(--color-base-elements-background);
+}
+
+.bar--top {
+	top: 0;
+	margin-bottom: 3em;
+}
+
+.bar--bottom {
+  bottom: 0;
+  margin-top: 3em;
+}

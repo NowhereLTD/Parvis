@@ -1,0 +1,136 @@
+/*
+	f--       = Grid base
+	f--s      = Grid start
+	f--e      = Grid end
+	f--s-1    = Start Grid on layer 1/12
+	f--e-5    = End Grid on layer 5/12
+*/
+
+/*
+	Base for all Grid Elements
+*/
+[class^="f--"] {
+  --flex-size: 100%;
+}
+
+/*
+	Grid start
+*/
+[class^="f--s"] {}
+
+/*
+	Grid end
+*/
+[class^="f--e"] {}
+
+
+
+/*
+	Grid starts
+*/
+.f--s-0 {
+	margin-left: 0;
+}
+
+.f--s-1 {
+	margin-left: calc(var(--flex-size) / 12);
+}
+
+.f--s-2 {
+	margin-left: calc(var(--flex-size) / 12 * 2);
+}
+
+.f--s-3 {
+	margin-left: calc(var(--flex-size) / 12 * 3);
+}
+
+.f--s-4 {
+	margin-left: calc(var(--flex-size) / 12 * 4);
+}
+
+.f--s-5 {
+	margin-left: calc(var(--flex-size) / 12 * 5);
+}
+
+.f--s-6 {
+	margin-left: calc(var(--flex-size) / 12 * 6);
+}
+
+.f--s-7 {
+	margin-left: calc(var(--flex-size) / 12 * 7);
+}
+
+.f--s-8 {
+	margin-left: calc(var(--flex-size) / 12 * 8);
+}
+
+.f--s-9 {
+	margin-left: calc(var(--flex-size) / 12 * 9);
+}
+
+.f--s-10 {
+	margin-left: calc(var(--flex-size) / 12 * 10);
+}
+
+.f--s-11 {
+	margin-left: calc(var(--flex-size) / 12 * 11);
+}
+
+.f--s-12 {
+	margin-left: var(--flex-size);
+}
+
+/*
+	Grid ends
+*/
+.f--e-0 {
+	width: 0;
+}
+
+.f--e-1 {
+	width: calc(var(--flex-size) / 12);
+}
+
+.f--e-2 {
+	width: calc(var(--flex-size) / 12 * 2);
+}
+
+.f--e-3 {
+	width: calc(var(--flex-size) / 12 * 3);
+}
+
+.f--e-4 {
+	width: calc(var(--flex-size) / 12 * 4);
+}
+
+.f--e-5 {
+	width: calc(var(--flex-size) / 12 * 5);
+}
+
+.f--e-6 {
+	width: calc(var(--flex-size) / 12 * 6);
+}
+
+.f--e-7 {
+	width: calc(var(--flex-size) / 12 * 7);
+}
+
+.f--e-8 {
+	width: calc(var(--flex-size) / 12 * 8);
+}
+
+.f--e-9 {
+	width: calc(var(--flex-size) / 12 * 9);
+}
+
+.f--e-10 {
+	width: calc(var(--flex-size) / 12 * 10);
+}
+
+.f--e-11 {
+	width: calc(var(--flex-size) / 12 * 11);
+}
+
+.f--e-12 {
+	width: var(--flex-size);
+}

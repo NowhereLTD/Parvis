@@ -1,0 +1,33 @@
+
+body {
+	margin: 0;
+  overflow-x: hidden;
+
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	font-family: arial;
+	font-family: AnonymousPro;
+
+	background-color: var(--color-base-background);
+	color: var(--color-base-foregrpund);
+}
+
+.selectable {
+	-moz-user-select: text;
+	-khtml-user-select: text;
+	-webkit-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+
+.unset {
+  all: unset;
+}
+
+.initial {
+  all: initial;
+}
