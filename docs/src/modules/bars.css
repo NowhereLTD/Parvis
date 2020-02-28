@@ -1,6 +1,7 @@
 
 
 [class^="bar--"] {
+  display: flex;
 	left: 0;
 	width: 100%;
 	min-height: 3em;
