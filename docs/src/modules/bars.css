@@ -9,10 +9,21 @@
 	background-color: var(--color-base-elements-background);
 }
 
+[class^="bar--"] .centered {
+  display: flex;
+  align-items: center;
+}
+
+[class^="bar--"] .centered *{
+  margin-right: 1em;
+}
+
+
 .bar--top {
 	top: 0;
 	margin-bottom: 3em;
 }
+
 
 .bar--bottom {
   bottom: 0;
