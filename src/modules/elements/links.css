@@ -1,0 +1,6 @@
+
+a {
+  all: unset;
+  color: var(--color-base-elements-foreground);
+  cursor: pointer;
+}
