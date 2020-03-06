@@ -1,0 +1,110 @@
+{
+  "base": {
+    "bars": {
+      "name": "Bars",
+      "description": "Navigation Bars",
+      "dependencies": ["base/core", "base/colors"],
+      "deploymentState": "complete"
+    },
+    "colors": {
+      "name": "Colors",
+      "description": "Basic Material Design Colors",
+      "dependencies": ["base/core"],
+      "deploymentState": "inwork"
+    },
+    "core": {
+      "name": "Core",
+      "description": "The Core CSS",
+      "dependencies": [],
+      "deploymentState": "complete"
+    },
+    "divider": {
+      "name": "Divider",
+      "description": "Content Divider",
+      "dependencies": ["base/core", "base/colors"],
+      "deploymentState": "complete"
+    },
+    "fonts": {
+      "name": "Fonts",
+      "description": "Basic Fonts",
+      "dependencies": [],
+      "deploymentState": "complete"
+    },
+    "flex": {
+      "flex_display": {
+        "name": "Flex Display",
+        "description": "Dynamic flex system for diffrent display sizes",
+        "dependencies": [],
+        "deploymentState": "complete"
+      },
+      "flex_dynamic": {
+        "name": "Flex Dynamic",
+        "description": "Dynamic flex system for new css specification",
+        "dependencies": [],
+        "deploymentState": "future"
+      },
+      "flex": {
+        "name": "Flex Basic",
+        "description": "Basic flex system",
+        "dependencies": [],
+        "deploymentState": "complete"
+      }
+    },
+    "elements": {
+      "button": {
+        "name": "Buttons",
+        "description": "Initial diffrent basic buttons",
+        "dependencies": ["base/colors"],
+        "deploymentState": "complete"
+      },
+      "cards": {
+        "name": "Cards",
+        "description": "Diffrent basic cards",
+        "dependencies": ["base/colors"],
+        "deploymentState": "complete"
+      },
+      "collapsible": {
+        "name": "Simple Collapsible",
+        "description": "A simple collapsible element",
+        "dependencies": ["base/colors"],
+        "deploymentState": "complete"
+      },
+      "dialog": {
+        "name": "Simple Dialog",
+        "description": "A simple dialog element",
+        "dependencies": ["base/colors"],
+        "deploymentState": "complete"
+      },
+      "form": {
+        "name": "Form Elements",
+        "description": "Basic form elements",
+        "dependencies": ["base/colors"],
+        "deploymentState": "complete"
+      },
+      "headlines": {
+        "name": "Header",
+        "description": "Optimize headlines",
+        "dependencies": [],
+        "deploymentState": "complete"
+      },
+      "links": {
+        "name": "Links",
+        "description": "Dynamic link system",
+        "dependencies": ["base/colors"],
+        "deploymentState": "complete"
+      },
+      "media": {
+        "name": "Media",
+        "description": "Simple Media Elements",
+        "dependencies": ["base/colors"],
+        "deploymentState": "complete"
+      },
+      "tables": {
+        "name": "Tables",
+        "description": "Optimize Tables",
+        "dependencies": [],
+        "deploymentState": "inwork"
+      }
+    }
+  }
+}

@@ -55,12 +55,6 @@
 	border-radius: 0.2em;
 }
 
-
-[class^="collapsible"] > input[type*="checkbox"]:checked {
-
-}
-
-
 [class^="collapsible"] > input[type*="checkbox"]:checked ~ .collapsible--content {
 	background-color: var(--color-base-elements-background);
 	color: var(--color-base-elements-foreground);

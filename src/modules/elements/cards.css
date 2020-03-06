@@ -7,6 +7,8 @@
 	border-radius: 0.2em;
 	background-color: var(--color-base-elements-background);
 	color: var(--color-base-elements-foreground);
+  display: flex;
+  flex-direction: column;
 }
 
 [class^="card"] > video, img {
@@ -27,4 +29,3 @@
 .card--outlined {
 	border: 1px solid rgba(var(--color-base-type-rgb), 0.16);
 }
-

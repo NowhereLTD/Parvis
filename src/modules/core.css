@@ -9,8 +9,7 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 
-	font-family: arial;
-	font-family: AnonymousPro;
+	font-family: Arial;
 
 	background-color: var(--color-base-background);
 	color: var(--color-base-foregrpund);
