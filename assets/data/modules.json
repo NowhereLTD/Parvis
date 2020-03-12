@@ -51,6 +51,12 @@
       }
     },
     "elements": {
+      "alert": {
+        "name": "Alert",
+        "description": "Alert element",
+        "dependencies": ["base/colors"],
+        "deploymentState": "complete"
+      },
       "button": {
         "name": "Buttons",
         "description": "Initial diffrent basic buttons",
