@@ -3,7 +3,7 @@
 	Button Base layout
 */
 
-button, [class^="btn"] {
+button, button[class^="btn"] {
 	all: unset;
 	color: var(--color-base-elements-foreground);
 	background-color: var(--color-base-elements-background);
@@ -19,12 +19,12 @@ button, [class^="btn"] {
 	margin-bottom: 0.3em;
 }
 
-button:hover, [class^="btn"]:hover {
+button:hover, button[class^="btn"]:hover {
 	filter: brightness(110%);
 	box-shadow: 0 3px 6px rgba(var(--color-base-type-rgb), 0.23), 0 3px 6px rgba(var(--color-base-type-rgb), 0.30);
 }
 
-button:after, [class^="btn"]:after {
+button:after, button[class^="btn"]:after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -41,7 +41,7 @@ button:after, [class^="btn"]:after {
 	transition: transform 0.5s, opacity 1s;
 }
 
-button:active:after, [class^="btn"]:active:after {
+button:active:after, button[class^="btn"]:active:after {
 	transform: scale(0, 0);
 	opacity: 0.2;
 	transition: 0s;
@@ -53,7 +53,7 @@ button:active:after, [class^="btn"]:active:after {
 	Button Round layout
 */
 
-.btn--round {
+button.btn--round {
 	border-radius: 50%;
 	font-size: 20px;
 	width: 40px;
@@ -68,7 +68,7 @@ button:active:after, [class^="btn"]:active:after {
 	Button Flat layout
 */
 
-.btn--flat {
+button.btn--flat {
 	all: unset;
 	border-radius: 0.2em;
 	padding: 0.4em;
@@ -83,12 +83,12 @@ button:active:after, [class^="btn"]:active:after {
 	margin-bottom: 0.3em;
 }
 
-.btn--flat:hover {
+button.btn--flat:hover {
 	filter: unset;
 	box-shadow: unset;
 }
 
-.btn--flat:after {
+button.btn--flat:after {
 	content: "";
 	display: block;
 	position: absolute;
