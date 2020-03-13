@@ -215,7 +215,7 @@ body {
 
 @font-face {
 	font-family: AnonymousPro;
-	src: url("./assets/fonts/AnonymousPro.ttf");
+	src: url("../assets/fonts/AnonymousPro.ttf");
 }
 hr {
 	border-top: 1px solid rgba(var(--color-base-type-rgb), 0.16);
