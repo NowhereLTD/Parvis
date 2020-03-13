@@ -207,7 +207,7 @@ body {
 	--color-bright-4-brightorange: #FFF176;
 	--color-bright-5-brightorange: #FFEE58;
 
-	
+
 
 }/*
 	Fonts under OFL License
@@ -215,7 +215,7 @@ body {
 
 @font-face {
 	font-family: AnonymousPro;
-	src: url("../../assets/fonts/AnonymousPro.ttf");
+	src: url("./assets/fonts/AnonymousPro.ttf");
 }
 hr {
 	border-top: 1px solid rgba(var(--color-base-type-rgb), 0.16);
@@ -911,7 +911,7 @@ video, img {
 	margin-bottom: 0.3em;
 }
 table {
-	
+
 }/*
   Headlines Base Layout
 */
